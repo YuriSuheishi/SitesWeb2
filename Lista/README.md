@@ -1,4 +1,8 @@
-Todos os exercícios devem usar o framework Bootstrap.
+<h1>Lista 1</h1>
+
+form.html retirado de https://github.com/ricardousp/pw2/blob/b08afe14b2c61fe9d67931323af9489a563a43c7/exemplo_form.php
+
+Todos os exercícios deveriam usar o framework Bootstrap.
 Os exercícios que não utilizarem o Bootstrap serão desconsiderados e
 consequentemente zerados.
 
