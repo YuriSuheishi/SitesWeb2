@@ -1,7 +1,7 @@
 <?php
 
     print '<pre>';
-    print_r($_REQUEST);
+    print_r($_GET);
     print '</pre>';    
 
 ?>
