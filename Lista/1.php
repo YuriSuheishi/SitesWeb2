@@ -16,27 +16,23 @@
             </button>
         </div>
     </form>
-
-    <?php
-        $x = $_POST['x'];
-
-    ?>
     <h1>
         <?php
+        $x = $_POST['x'];
         if($_POST){
             if(isset($_POST['x']) && !empty($_POST['x'])){
                 if($x > 0){
                     echo 'O valor é positivo';
                 }
                 elseif($x = 0){
-                    echo 'O valor é igual a zero'
+                    echo 'O valor é igual a zero';
                 }
                 else{
-                    echo 'O valor é negativo'
+                    echo 'O valor é negativo';
                 }
             }
             else{
-                echo 'Nenhum Valor Atribuido'
+                echo 'Nenhum Valor Atribuido';
             }
         }
         ?>
