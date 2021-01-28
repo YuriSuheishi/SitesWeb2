@@ -30,7 +30,7 @@
                 echo $i;
                 echo ' = ';
                 echo $x * $i;
-                echo '<br>'
+                echo '<br>';
             }
         }
         else{
