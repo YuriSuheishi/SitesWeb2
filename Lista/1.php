@@ -34,7 +34,6 @@
         else{
             echo 'Nenhum Valor Atribuido';
         }
-        }
         ?>
     </h1>
 </body>
