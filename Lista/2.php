@@ -25,11 +25,7 @@
         if(isset($_GET['x']) && !empty($_GET['x'])){
             $x = $_GET['x'];
             for($i = 0; $i <= 10; ++$i){
-                echo $x;
-                echo ' x ';
-                echo $i;
-                echo ' = ';
-                echo $x * $i;
+                echo $x . ' x ' . $i . ' = ' . $x * $i;
                 echo '<br>';
             }
         }
