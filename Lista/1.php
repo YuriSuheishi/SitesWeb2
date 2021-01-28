@@ -5,10 +5,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">    
 </head>
 <body>
-
+    
+    <br><br><br>
     <form action="" class="container" method="POST">
         <div class="form-group">
-            <label for="x">Variavel</label>
+            <label for="x"><h1>Variavel</h1></label>
             <input type="text" name="x" id="x" class="form-control" value=""/>
         </div>
         <div class="form-group">
@@ -16,7 +17,7 @@
                 Enviar
             </button>
         </div>
-    </form>
+        
     <h1>
         <?php
         $x = $_POST['x'];
@@ -37,5 +38,6 @@
         }
         ?>
     </h1>
+    </form>
 </body>
 </html>
