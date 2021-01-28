@@ -7,7 +7,7 @@
 <body>
     
     <br><br><br>
-    <form action="" class="container" method="POST">
+    <form action="" class="container" method="GET">
         <div class="form-group">
             <label for="x"><h1>Variavel</h1></label>
             <input type="text" name="x" id="x" class="form-control" value=""/>
@@ -18,19 +18,19 @@
             </button>
         </div>
         
-    <h1>
+        Tabuada: 
+        <br>
         <?php
         
-        if(isset($_POST['x']) && !empty($_POST['x'])){
-            $x = $_POST['x'];
-            if($x > 0){
-                echo 'O valor é positivo';
-            }
-            elseif($x = 0){
-                echo 'O valor é igual a zero';
-            }
-            else{
-                echo 'O valor é negativo';
+        if(isset($_GET['x']) && !empty($_GET['x'])){
+            $x = $_GET['x'];
+            for($i = 0; $i <= 10; ++$i){
+                echo $x;
+                echo ' x ';
+                echo $i;
+                echo ' = ';
+                echo $x * $i;
+                echo '<br>'
             }
         }
         else{
