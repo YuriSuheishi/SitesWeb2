@@ -28,7 +28,7 @@
         if(isset($_POST['altura']) && !empty($_POST['altura']) && isset($_POST['peso']) && !empty($_POST['peso'])){
             $alt = $_POST['altura'];
             $peso = $_POST['peso'];
-            $mc = $peso / ($alt * $alt)
+            $mc = $peso / ($alt * $alt);
             echo 'IMC = ' . $mc;
             echo '<br>';
             
