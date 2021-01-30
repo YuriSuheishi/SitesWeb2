@@ -25,7 +25,7 @@
         <h1>
         <?php
         
-        if(isset($_POST['altura']) && !empty($_POST['altura']) && $_POST['peso']) && !empty($_POST['peso'])){
+        if(isset($_POST['altura']) && !empty($_POST['altura']) && isset($_POST['peso']) && !empty($_POST['peso'])){
             $alt = $_POST['altura'];
             $peso = $_POST['peso'];
             $mc = $peso / ($alt * $alt)
