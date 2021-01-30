@@ -40,6 +40,7 @@
     </h1>
     <h2>
         <?php
+        if(isset($mc) && !empty($mc){ 
             if($mc < 20){
                 echo 'Subpeso';
             }
@@ -49,6 +50,7 @@
             else{
                 echo 'Normal';
             }
+        } 
         ?>
     </h2>
     </form>
