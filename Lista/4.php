@@ -23,7 +23,7 @@
         
         if(isset($_GET['x']) && !empty($_GET['x'])){
             $x = $_GET['x'];
-            $xf = $x + ($x * (0,45 + 0,28))
+            $xf = $x + ($x * (0.45 + 0.28));
             echo 'Valor Final é R$: ' . $xf;
             echo '<br>';
         }
