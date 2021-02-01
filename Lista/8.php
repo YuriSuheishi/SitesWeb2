@@ -13,7 +13,7 @@
             <input type="text" name="x" id="x" class="form-control" value=""/>
         </div>
         <div class="form-group">
-            <label for="y"><h1>Reajuste(%)</h1></label>
+            <label for="y"><h1>Valor de Venda</h1></label>
             <input type="text" name="y" id="y" class="form-control" value=""/>
         </div>
         <div class="form-group">
@@ -25,11 +25,17 @@
     <h2>
         <?php
         
-        if(isset($_POST['x']) && !empty($_POST['x']) && isset($_POST['y']) && !empty($_POST['y'])){
-            $x = $_POST['x'];
-            $y = $_POST['y'];
-            $f = $x + ($x * ($y / 100));
-            echo 'Sálario Final = ' . $f;
+        if(isset($_POST['x']) && !empty($_POST['x']) && isset($_POST['y'])){
+            $fixo = $_POST['x'];
+            $vendas = $_POST['y'];
+            if($vendas>1500){
+                $salario = $fixo + 45 + (($vendas - 1500) * 0.05);
+
+            }
+            else{
+                $salario = $fixo + ($vendas * 0.03);
+            }
+            echo 'Sálario Atual = ' . $salario;
             echo '<br>';
             
         }

@@ -10,11 +10,11 @@
     <form action="" class="container" method="POST">
         <div class="form-group">
             <label for="hora"><h1>Horas Trabalhadas</h1></label>
-            <input type="text" name="x1" id="altura" class="form-control" value=""/>
+            <input type="text" name="x1" id="x1" class="form-control" value=""/>
         </div>
         <div class="form-group">
             <label for="ss"><h1>Sálario por Hora</h1></label>
-            <input type="text" name="x2" id="peso" class="form-control" value=""/>
+            <input type="text" name="x2" id="x2" class="form-control" value=""/>
         </div>
         <div class="form-group">
             <button class="btn btn-primary">
