@@ -29,14 +29,14 @@
     <h2>
         <?php
         if(isset($_POST['x1']) && !empty($_POST['x1']) && isset($_POST['x2']) && !empty($_POST['x2']) && isset($_POST['x3']) && !empty($_POST['x3'])){
-            $media = ( $_POST['x1'] * $_POST['x2'] * $_POST['x3'] ) / 3 ;
+            $media = ( $_POST['x1'] + $_POST['x2'] + $_POST['x3'] ) / 3 ;
             echo 'Média Final = ' . $media;
             echo '<br>';
             if($media >= 6){
                 echo 'Aprovado';
             }
             else{
-                echo 'Resprovado';
+                echo 'Reprovado';
             }
             
         }

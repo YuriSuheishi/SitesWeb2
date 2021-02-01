@@ -32,7 +32,7 @@
 
             }
             else{
-                $salario = $hora * $valor
+                $salario = $hora * $valor;
             }
             echo 'Sálario Total = ' . $salario;
             echo '<br>';   

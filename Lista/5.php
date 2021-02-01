@@ -10,11 +10,11 @@
     <form action="" class="container" method="POST">
         <div class="form-group">
             <label for="x"><h1>Salário</h1></label>
-            <input type="text" name="x" id="altura" class="form-control" value=""/>
+            <input type="text" name="x" id="x" class="form-control" value=""/>
         </div>
         <div class="form-group">
-            <label for="x"><h1>Reajuste(%)</h1></label>
-            <input type="text" name="y" id="peso" class="form-control" value=""/>
+            <label for="y"><h1>Reajuste(%)</h1></label>
+            <input type="text" name="y" id="y" class="form-control" value=""/>
         </div>
         <div class="form-group">
             <button class="btn btn-primary">
@@ -29,7 +29,7 @@
             $x = $_POST['x'];
             $y = $_POST['y'];
             $f = $x * ($y / 100);
-            echo 'Sálario Final = ' . $mc;
+            echo 'Sálario Final = ' . $f;
             echo '<br>';
             
         }
