@@ -40,7 +40,7 @@
     </h1>
     <h2>
         <?php
-        if(isset($mc) && !empty($mc){ 
+        if(isset($mc) && !empty($mc)){ 
             if($mc < 20){
                 echo 'Subpeso';
             }
