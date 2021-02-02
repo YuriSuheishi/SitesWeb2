@@ -6,14 +6,15 @@
 </head>
 <body>
     
-    <br><br><br>
+<br><br>
+    <h1>Questão 5</h1><br>
     <form action="" class="container" method="POST">
         <div class="form-group">
-            <label for="x"><h1>Salário</h1></label>
+            <label for="x"><h2>Salário</h2></label>
             <input type="text" name="x" id="x" class="form-control" value=""/>
         </div>
         <div class="form-group">
-            <label for="y"><h1>Reajuste(%)</h1></label>
+            <label for="y"><h2>Reajuste(%)</h2></label>
             <input type="text" name="y" id="y" class="form-control" value=""/>
         </div>
         <div class="form-group">

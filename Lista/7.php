@@ -6,14 +6,15 @@
 </head>
 <body>
     
-    <br><br><br>
+<br><br>
+    <h1>Questão 7</h1><br>
     <form action="" class="container" method="POST">
         <div class="form-group">
-            <label for="hora"><h1>Horas Trabalhadas</h1></label>
+            <label for="hora"><h2>Horas Trabalhadas</h2></label>
             <input type="text" name="x1" id="x1" class="form-control" value=""/>
         </div>
         <div class="form-group">
-            <label for="ss"><h1>Sálario por Hora</h1></label>
+            <label for="ss"><h2>Sálario por Hora</h2></label>
             <input type="text" name="x2" id="x2" class="form-control" value=""/>
         </div>
         <div class="form-group">

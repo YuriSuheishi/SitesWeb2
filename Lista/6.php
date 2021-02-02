@@ -6,18 +6,19 @@
 </head>
 <body>
     
-    <br><br><br>
+<br><br>
+    <h1>Questão 6</h1><br>
     <form action="" class="container" method="POST">
         <div class="form-group">
-            <label for="x"><h1>Nota 1</h1></label>
+            <label for="x"><h2>Nota 1</h2></label>
             <input type="text" name="x1" id="x1" class="form-control" value=""/>
         </div>
         <div class="form-group">
-            <label for="x"><h1>Nota 2</h1></label>
+            <label for="x"><h2>Nota 2</h2></label>
             <input type="text" name="x2" id="x2" class="form-control" value=""/>
         </div>
         <div class="form-group">
-            <label for="x"><h1>Nota 3</h1></label>
+            <label for="x"><h2>Nota 3</h2></label>
             <input type="text" name="x3" id="x3" class="form-control" value=""/>
         </div>
         <div class="form-group">

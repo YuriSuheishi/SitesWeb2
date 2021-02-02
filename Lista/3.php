@@ -6,14 +6,15 @@
 </head>
 <body>
     
-    <br><br><br>
+    <br><br>
+    <h1>Questão 3</h1><br>
     <form action="" class="container" method="POST">
         <div class="form-group">
-            <label for="x"><h1>Altura</h1></label>
+            <label for="x"><h2>Altura</h2></label>
             <input type="text" name="altura" id="altura" class="form-control" value=""/>
         </div>
         <div class="form-group">
-            <label for="x"><h1>Peso</h1></label>
+            <label for="x"><h2>Peso</h2></label>
             <input type="text" name="peso" id="peso" class="form-control" value=""/>
         </div>
         <div class="form-group">
@@ -22,7 +23,7 @@
             </button>
         </div>
         <br>
-        <h1>
+        <h2>
         <?php
         
         if(isset($_POST['altura']) && !empty($_POST['altura']) && isset($_POST['peso']) && !empty($_POST['peso'])){
@@ -37,7 +38,7 @@
             echo 'Nenhum Valor Atribuido';
         }
         ?>
-    </h1>
+    </h2>
     <h2>
         <?php
         if(isset($mc) && !empty($mc)){ 

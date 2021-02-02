@@ -6,14 +6,15 @@
 </head>
 <body>
     
-    <br><br><br>
+<br><br>
+    <h1>Questão 10</h1><br>
     <form action="" class="container" method="POST">
         <div class="form-group">
-            <label for="x"><h1>Idade Atual</h1></label>
+            <label for="x"><h2>Idade Atual</h2></label>
             <input type="text" name="x" id="x" class="form-control" value=""/>
         </div>
         <div class="form-group">
-            <label for="y"><h1>Tempo de Trabalho</h1></label>
+            <label for="y"><h2>Tempo de Trabalho</h2></label>
             <input type="text" name="y" id="y" class="form-control" value=""/>
         </div>
         <div class="form-group">
@@ -28,11 +29,17 @@
         if(isset($_POST['x']) && !empty($_POST['x']) && isset($_POST['y']) && !empty($_POST['y']) ){
             $idade = $_POST['x'];
             $tt = $_POST['y'];
-            if(($idade >= 65)||($tt >= 30)||(($idade >= 60) && ($tt >= 25))){
-                echo 'Requerer Aposentadoria';
+            if($tt < $idade){
+                if(($idade >= 65)||($tt >= 30)||(($idade >= 60) && ($tt >= 25))){
+                    echo 'Requerer Aposentadoria';
+                }
+                else{
+                    echo 'Não Requerer Aposentadoria';
+                }
+
             }
             else{
-                echo 'Não Requerer Aposentadoria';
+                echo 'Tempo de Trabalho maior que Idade! Erro!';
             }
         }
         else{

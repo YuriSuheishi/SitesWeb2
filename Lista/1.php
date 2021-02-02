@@ -6,10 +6,11 @@
 </head>
 <body>
     
-    <br><br><br>
+    <br><br>
+    <h1>Questão 1</h1><br>
     <form action="" class="container" method="POST">
         <div class="form-group">
-            <label for="x"><h1>Variavel</h1></label>
+            <label for="x"><h2>Variavel</h2></label>
             <input type="text" name="x" id="x" class="form-control" value=""/>
         </div>
         <div class="form-group">
@@ -18,7 +19,7 @@
             </button>
         </div>
         
-    <h1>
+    <h2>
         <?php
         
         if(isset($_POST['x']) && !empty($_POST['x'])){
@@ -37,7 +38,7 @@
             echo 'Nenhum Valor Atribuido';
         }
         ?>
-    </h1>
+    </h2>
     </form>
 </body>
 </html>

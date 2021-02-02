@@ -8,6 +8,9 @@
 </head>
 <body>
     
+<br><br>
+    <h1>Questão 11</h1><br>
+    <h2>
     <form action="" class="container" method="POST">
         <div class="form-group">
             <label for="nome">Nome:</label>
@@ -18,16 +21,12 @@
             <input type="text" name="email" class="form-control" value=""/>
         </div>
         <div class="form-group">
-            <label for="nome">Telefone Fixo</label>
-            <input type="text" name="telefone" class="form-control" value=""/>
+            <label for="nome">CPF</label>
+            <input type="text" name="cpf" class="form-control" value=""/>
         </div>
         <div class="form-group">
             <label for="nome">Idade</label>
             <input type="text" name="idade" class="form-control" value=""/>
-        </div>
-        <div class="form-group">
-            <label for="nome">Endereço</label>
-            <input type="text" name="endereco" class="form-control" value=""/>
         </div>
         <div class="form-group">
             <button class="btn btn-primary">
@@ -35,7 +34,7 @@
             </button>
         </div>
     </form>
-
+    </h2>
     <?php
 
     print '<pre>';

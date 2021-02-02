@@ -6,7 +6,8 @@
 </head>
 <body>
     
-    <br><br><br>
+<br><br>
+    <h1>Questão 9</h1><br>
     <form action="" class="container" method="POST">
         <div class="form-group">
             <label for="tipo"><h1>Tipo de Combustivel</h1></label>
@@ -18,7 +19,7 @@
             </select>
         </div>
         <div class="form-group">
-            <label for="y"><h1>Quantidade</h1></label>
+            <label for="y"><h2>Quantidade</h2></label>
             <input type="text" name="y" id="y" class="form-control" value=""/>
         </div>
         <div class="form-group">

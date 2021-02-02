@@ -6,10 +6,11 @@
 </head>
 <body>
     
-    <br><br><br>
+<br><br>
+    <h1>Questão 4</h1><br>
     <form action="" class="container" method="GET">
         <div class="form-group">
-            <label for="x"><h1>Valor de Fábrica</h1></label>
+            <label for="x"><h2>Valor de Fábrica</h2></label>
             <input type="text" name="x" id="x" class="form-control" value=""/>
         </div>
         <div class="form-group">
@@ -19,6 +20,7 @@
         </div>
         
         <br>
+        <h2>
         <?php
         
         if(isset($_GET['x']) && !empty($_GET['x'])){
@@ -31,7 +33,7 @@
             echo 'Nenhum Valor Atribuido';
         }
         ?>
-    </h1>
+    </h2>
     </form>
 </body>
 </html>
