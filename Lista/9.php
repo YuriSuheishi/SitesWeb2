@@ -7,8 +7,8 @@
 <body>
     
 <br><br>
-    <h1>Questão 9</h1><br>
     <form action="" class="container" method="POST">
+    <h1>Questão 9</h1><br>
         <div class="form-group">
             <label for="tipo"><h1>Tipo de Combustivel</h1></label>
             <select class="form-control" id="tipo" name="tipo">

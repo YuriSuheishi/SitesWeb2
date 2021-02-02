@@ -7,8 +7,8 @@
 <body>
     
     <br><br>
-    <h1>Questão 3</h1><br>
     <form action="" class="container" method="POST">
+    <h1>Questão 3</h1><br>
         <div class="form-group">
             <label for="x"><h2>Altura</h2></label>
             <input type="text" name="altura" id="altura" class="form-control" value=""/>

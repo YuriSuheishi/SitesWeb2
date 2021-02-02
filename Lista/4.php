@@ -7,8 +7,8 @@
 <body>
     
 <br><br>
-    <h1>Questão 4</h1><br>
     <form action="" class="container" method="GET">
+    <h1>Questão 4</h1><br>
         <div class="form-group">
             <label for="x"><h2>Valor de Fábrica</h2></label>
             <input type="text" name="x" id="x" class="form-control" value=""/>

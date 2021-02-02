@@ -9,9 +9,9 @@
 <body>
     
 <br><br>
+    <form action="" class="container" method="POST">
     <h1>Questão 11</h1><br>
     <h2>
-    <form action="" class="container" method="POST">
         <div class="form-group">
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nomeCompleto" class="form-control" value=""/>
@@ -33,8 +33,9 @@
                 Enviar
             </button>
         </div>
-    </form>
+        
     </h2>
+    </form>
     <?php
 
     print '<pre>';
