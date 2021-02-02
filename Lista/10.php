@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Questão 8</title>
+    <title>Questão 10</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">    
 </head>
 <body>
@@ -9,11 +9,11 @@
     <br><br><br>
     <form action="" class="container" method="POST">
         <div class="form-group">
-            <label for="x"><h1>Salário</h1></label>
+            <label for="x"><h1>Idade Atual</h1></label>
             <input type="text" name="x" id="x" class="form-control" value=""/>
         </div>
         <div class="form-group">
-            <label for="y"><h1>Valor de Venda</h1></label>
+            <label for="y"><h1>Tempo de Trabalho</h1></label>
             <input type="text" name="y" id="y" class="form-control" value=""/>
         </div>
         <div class="form-group">
@@ -25,19 +25,15 @@
     <h2>
         <?php
         
-        if(isset($_POST['x']) && !empty($_POST['x']) && isset($_POST['y'])){
-            $fixo = $_POST['x'];
-            $vendas = $_POST['y'];
-            if($vendas>1500){
-                $salario = $fixo + 45 + (($vendas - 1500) * 0.05);
-
+        if(isset($_POST['x']) && !empty($_POST['x']) && isset($_POST['y']) && !empty($_POST['y']) ){
+            $idade = $_POST['x'];
+            $tt = $_POST['y'];
+            if(($idade >= 65)||($tt >= 30)||(($idade >= 60) && ($tt >= 25))){
+                echo 'Requerer Aposentadoria';
             }
             else{
-                $salario = $fixo + ($vendas * 0.03);
+                echo 'Não Requerer Aposentadoria';
             }
-            echo 'Sálario Atual = ' . $salario;
-            echo '<br>';
-            
         }
         else{
             echo 'Nenhum Valor Atribuido';
