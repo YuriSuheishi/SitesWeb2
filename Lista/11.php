@@ -33,17 +33,19 @@
                 Enviar
             </button>
         </div>
+
+        
+    <?php
+
+print '<pre>';
+if(isset($_POST) && !empty($_POST)){
+    print_r($_POST);
+}
+print '</pre>';    
+
+?>
         
     </h2>
     </form>
-    <?php
-
-    print '<pre>';
-    if(isset($_POST) && !empty($_POST)){
-        print_r($_POST);
-    }
-    print '</pre>';    
-
-?>
 </body>
 </html>
