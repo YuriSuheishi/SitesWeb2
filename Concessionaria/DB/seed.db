@@ -1,0 +1,2 @@
+INSERT INTO Carro(Marca, Modelo, Foto, Cor, Descricao, Ano, Preco) VALUES ('Porshe', 'Porsche 911 Carrera','porsche.jpg', 'azul', ' ',2002,115000);
+INSERT INTO Carro(Marca, Modelo, Foto, Cor, Descricao, Ano, Preco) VALUES ('Mazda', 'Mazda RX8','mazda.jpg', 'vermelho', ' ',2002,55000);
